@@ -187,12 +187,12 @@ video {
     left: 0;
     width: 100%;
     padding-block: 4rem;
-    background: rgba(255, 255, 255, 0.15);
+    /* background: rgba(255, 255, 255, 0.15);
     backdrop-filter: blur(14px);
-    -webkit-backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px); */
     box-shadow: 0 4px 16px hsla(0, 0%, 0%, 0.2);
     transition: top 0.75s;
-    /* background-color: var(--body-color); */
+    background-color: var(--body-color);
   }
 }
 
@@ -238,9 +238,10 @@ video {
 
 /* Change background header */
 .bg-header {
-  background: rgba(255, 255, 255, 0.15);
+  /* background: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px); */
+  background-color: var(--body-color);
 
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 }
